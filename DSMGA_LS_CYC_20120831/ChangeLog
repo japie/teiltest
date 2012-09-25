@@ -1,0 +1,8 @@
+2009/01/06
+
+triangular matrix for dsm
+use median of 5 for the 1st pass
+independent mean & var by 3 pass
+split by beta distri
+RTR --> ell/20
+clean codes

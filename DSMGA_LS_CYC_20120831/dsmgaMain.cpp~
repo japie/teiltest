@@ -1,0 +1,173 @@
+/***************************************************************************
+ *   Copyright (C) 2004 by Tian-Li Yu                                      *
+ *   tianliyu@illigal.ge.uiuc.edu                                          *
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *   This program is distributed in the hope that it will be useful,       *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of        *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the         *
+ *   GNU General Public License for more details.                          *
+ *                                                                         *
+ *   You should have received a copy of the GNU General Public License     *
+ *   along with this program; if not, write to the                         *
+ *   Free Software Foundation, Inc.,                                       *
+ *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+ ***************************************************************************/
+
+
+#include <math.h>
+#include <iostream>
+#include <cstdlib>
+#include <fstream>
+#include "statistics.h"
+#include "dsmga.h"
+#include "global.h"
+#include "fitOC.h"
+#include "statistics.h"
+#define SAME_PBM_REPEAT 5
+#define SAME_SETTING_REPEAT 5
+
+using namespace std;
+
+Statistics *st_bb;
+
+// modify by chung, for OCFit information
+Statistics OCFitSuceedRecorder;
+Statistics OCFitGenRecorder;
+Statistics OCFitSpGenRecorder;
+
+int
+main (int argc, char *argv[])
+{
+
+    //myTableLookUp.readTable(hXOR);
+    //myTableLookUp.readTable(hIFF);
+    //maxMemory=0;
+
+    if (argc != 8)
+    {
+            printf("DSMGA ell PopulationSize display mode bbsize oRaio cRatio\n\n\
+            population size -1: (0.5 * ell * log(ell) / log(2.71828))\n\n\
+            mode 0: crossover\n\
+            mode 1: strengthBasedBayesianXO_TL\n\
+            mode 2: gibbsXO\n\
+            mode 3: onePointXO\n\
+            mode 4: uniformXO\n\
+            mode 5: simpleMinCut\n\
+            mode 6: bbUniformXO\n\n");
+        return -1;
+    }
+
+    int ell = atoi (argv[1]);	// problem size
+    int nInitial = atoi (argv[2]);
+    int display = atoi (argv[3]);
+    int mode = atoi (argv[4]);
+    //int maxOverlap = atoi(argv[5]);
+    int bbsize = atoi (argv[5]);
+    double oRatio = atoi (argv[6]);
+    double cRatio = atoi(argv[7]);
+    oRatio /= 100.0;
+    cRatio /= 100.0;
+    
+    //int nInitial = atoi (argv[2]);	// initial population size
+    if (nInitial == -1)
+    {
+      nInitial = (int) (0.5 * ell * log((double)ell) / log(2.71828));
+    }
+  
+    //int selectionPressure = atoi (argv[3]);	// selection pressure
+    int selectionPressure = 2;
+    //double pc = atof (argv[4]);	// pc
+    double pc = 1;
+    //double pm = atof (argv[5]);	// pm
+    double pm = 0;
+    //int maxGen = atoi (argv[6]);	// max generation
+    int maxGen = 200;
+    //int maxFe = atoi (argv[7]);	// max fe
+    int maxFe = -1;
+    //int repeat = atoi (argv[8]);	// how many time to repeat
+    //int repeat = REPEAT;
+    //int display = atoi (argv[9]); // display each generation or not
+    //int rand_seed = atoi (argv[10]); 	// rand seed
+    int rand_seed = -1;
+    
+    if (rand_seed != -1)  // time
+        myRand.seed((unsigned long)rand_seed);
+    Statistics stGen;
+    int maxMemoryUsage = 0;   
+    int usedGen, failNum, succeedTime, succeedUseGeneration, TestAnswer, spUsedGen;
+    usedGen = failNum = succeedTime = succeedUseGeneration = TestAnswer = spUsedGen = 0;
+	  double calc_ans = 0.0;
+
+    OCFitSuceedRecorder.reset();
+    OCFitGenRecorder.reset();
+    for(int ssRepeat = 0; ssRepeat < SAME_SETTING_REPEAT; ++ssRepeat){ 
+      int flag = ocFitness.createProblem(ell, oRatio, cRatio, bbsize);
+      if (flag != 0) return EXIT_SUCCESS;
+      int spSucceedTime = spUsedGen = 0;
+      OCFitSpGenRecorder.reset();
+      for(int spRepeat = 0; spRepeat < SAME_PBM_REPEAT; ++spRepeat){              
+          /*if(std!=-1)
+            generateMoneTest(ell,std,i,maxOverlap);*/
+          DSMGA dsmga (ell, nInitial, selectionPressure, pc, pm, maxGen, maxFe);
+          
+          if (display == 1)
+              usedGen = dsmga.doIt (true, mode, bbsize, oRatio, cRatio);
+          else
+              usedGen = dsmga.doIt (false, mode, bbsize, oRatio, cRatio);
+
+          if (!dsmga.foundOptima()) {
+              failNum++;
+              //printf ("-");
+          }
+          else {
+              //cout << "* " << usedGen << endl; 
+              succeedTime++;
+              spSucceedTime++;
+              succeedUseGeneration += usedGen;
+	            spUsedGen += usedGen;
+              stGen.record (usedGen);
+              OCFitSpGenRecorder.record(usedGen);
+              //printf ("+");
+          }
+		      calc_ans += dsmga.getMaxFitness() / ocFitness.getMaxFitness();
+
+	  if(dsmga.foundOptima())
+	  {
+		TestAnswer+=ocFitness.checkrightanswer();
+		for(int i=0;i<ell;i++)
+		{  
+			if(dsmga.getbest(i) != ocFitness.bitanswer[i]) 
+			{
+				TestAnswer--; 
+				break;
+			} 
+		}
+	  }
+	  else TestAnswer++;
+
+	  /*cout << "The real answer:";
+	  for(int i=0;i<ell;i++) cout << ocFitness.bitanswer[i];
+	  cout << endl;*/
+
+          maxMemoryUsage += maxMemory;
+          fflush (NULL);
+        
+      }
+      float spSuceed = spSucceedTime/(float)SAME_PBM_REPEAT;
+      float spGen = spUsedGen/(float)SAME_PBM_REPEAT;
+      OCFitSuceedRecorder.record(spSuceed);
+      OCFitGenRecorder.record(spGen);
+      cout << spSuceed << " / " << spGen << " / " << OCFitSpGenRecorder.getVariance() << endl;
+    }
+    cout << "===============================" << endl;
+    cout << OCFitSuceedRecorder.getMean() << " / " << OCFitGenRecorder.getMean() << endl;
+    cout << OCFitSuceedRecorder.getVariance() << " / " << OCFitGenRecorder.getVariance() << endl;    
+	  cout << calc_ans / (SAME_PBM_REPEAT * SAME_SETTING_REPEAT) << endl;
+    cout << (double)(TestAnswer) / (SAME_PBM_REPEAT * SAME_SETTING_REPEAT) << endl; 
+    return EXIT_SUCCESS;
+}

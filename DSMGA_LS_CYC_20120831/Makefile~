@@ -1,0 +1,137 @@
+
+CXX = g++ 
+#CXXFLAGS = -O0 -g -Wall
+#CXXFLAGS = -O0 -pg -Wall -march=nocona
+CXXFLAGS = -O3 -Wall -g
+INCLUDE = 
+TLIB = 
+
+#-----Suffix Rules---------------------------
+# set up C++ suffixes and relationship between .cc and .o files
+
+.SUFFIXES: .cpp
+
+.cpp.o:
+	$(CXX) $(CXXFLAGS) $(INCLUDE) -c $<
+
+.cpp :
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $< -o $@ -lm $(TLIB) -lg++
+
+#-----File Dependencies----------------------
+
+SRC = $(SRC1) $(SRC2) $(dSRC) $(SRC3) $(SRC4) $(SRC5) $(SRC6) $(SRC7)
+
+SRC1 = fastcounting.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp dsmgaMain.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp fitOC.cpp globalFitOC spin-glass.cpp
+
+SRC2 = fastcounting.cpp bisection.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp  fitOC.cpp globalFitOC spin-glass.cpp
+
+dSRC = dataSampling.cpp myrand.cpp mt19937ar.cpp
+
+SRC3 = fastcounting.cpp repeated-bisection.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp  fitOC.cpp globalFitOC spin-glass.cpp
+
+SRC4 = fastcounting.cpp optnfe.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp  fitOC.cpp globalFitOC spin-glass.cpp
+
+SRC5 = UFOMain.cpp fastcounting.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp fitOC.cpp  spin-glass.cpp
+
+SRC6 = testConflict.cpp fastcounting.cpp bbi.cpp  bitwisedistance.cpp mt19937ar.cpp chromosome.cpp global.cpp tablelookup.cpp myrand.cpp UFO.cpp Tsuji.cpp fitOC.cpp  spin-glass.cpp
+
+SRC7 = testGlobal.cpp fastcounting.cpp bbi.cpp  bitwisedistance.cpp mt19937ar.cpp chromosome.cpp global.cpp tablelookup.cpp myrand.cpp  UFO.cpp fitOC.cpp  spin-glass.cpp
+
+#SRC8 = TsujiTest.cpp Tsuji.cpp bbi.cpp mt19937ar.cpp myrand.cpp chromosome.cpp global.cpp globalTsuji.cpp
+OBJ = $(addsuffix .o, $(basename $(SRC)))
+
+OBJ1 = $(addsuffix .o, $(basename $(SRC1)))
+OBJ2 = $(addsuffix .o, $(basename $(SRC2)))
+dOBJ = $(addsuffix .o, $(basename $(dSRC)))
+OBJ3 = $(addsuffix .o, $(basename $(SRC3)))
+OBJ4 = $(addsuffix .o, $(basename $(SRC4)))
+OBJ5 = $(addsuffix .o, $(basename $(SRC5)))
+OBJ6 = $(addsuffix .o, $(basename $(SRC6)))
+OBJ7 = $(addsuffix .o, $(basename $(SRC7)))
+#OBJ8 = $(addsuffix .o, $(basename $(SRC8)))
+
+all: DSMGA bisection repeated-bisection optnfe dataSampling UFO testConflict
+
+DSMGA: $(OBJ1)
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ1)
+
+bisection: $(OBJ2) DSMGA
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ2)
+
+dataSampling: $(dOBJ)
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o  $@ $(dOBJ)
+
+repeated-bisection: $(OBJ3) DSMGA
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ3)
+
+optnfe: $(OBJ4) DSMGA
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ4)
+
+UFO: $(OBJ5) 
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ5)
+
+testConflict:  $(OBJ6)
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ6)
+
+testTsuji:  $(OBJ8)
+	$(CXX) $(CXXFLAGS) $(INCLUDE) $(TLIB) -o $@ $(OBJ8)
+
+
+
+#-----Other stuff----------------------------
+depend:
+	makedepend -Y. $(SRC)
+
+clean:
+	rm -f $(OBJ)
+
+# DO NOT DELETE
+
+fastcounting.o: global.h myrand.h mt19937ar.h bitwisedistance.h tablelookup.h
+fastcounting.o: fastcounting.h
+bbi.o: bbi.h
+dsmclusteringchromosome.o: dsmclusteringchromosome.h chromosome.h global.h
+dsmclusteringchromosome.o: myrand.h mt19937ar.h bitwisedistance.h
+dsmclusteringchromosome.o: tablelookup.h bbi.h twodarray.h statistics.h
+dsmclusteringchromosome.o: triMatrix.h fastcounting.h
+global.o: global.h myrand.h mt19937ar.h bitwisedistance.h tablelookup.h Tsuji.h spin-glass.h
+global.o: statistics.h
+bitwisedistance.o: bitwisedistance.h
+dsmga.o: spin-glass.h dsmga.h global.h myrand.h mt19937ar.h bitwisedistance.h
+dsmga.o: spin-glass.h tablelookup.h chromosome.h bbi.h statistics.h
+dsmga.o: dsmclusteringchromosome.h twodarray.h triMatrix.h
+dsmgaMain.o: statistics.h dsmga.h global.h myrand.h mt19937ar.h
+dsmgaMain.o: bitwisedistance.h tablelookup.h chromosome.h bbi.h
+dsmgaMain.o: dsmclusteringchromosome.h twodarray.h triMatrix.h
+chromosome.o: chromosome.h global.h myrand.h mt19937ar.h bitwisedistance.h spin-glass.h
+chromosome.o: tablelookup.h
+myrand.o: myrand.h mt19937ar.h
+tablelookup.o: chromosome.h global.h myrand.h mt19937ar.h bitwisedistance.h
+tablelookup.o: tablelookup.h
+fastcounting.o: global.h myrand.h mt19937ar.h bitwisedistance.h spin-glass.h tablelookup.h
+fastcounting.o: fastcounting.h
+bisection.o: statistics.h dsmga.h global.h myrand.h mt19937ar.h spin-glass.h
+bisection.o: bitwisedistance.h tablelookup.h chromosome.h bbi.h spin-glass.h
+bisection.o: dsmclusteringchromosome.h twodarray.h triMatrix.h
+bbi.o: bbi.h
+dsmclusteringchromosome.o: dsmclusteringchromosome.h chromosome.h global.h
+dsmclusteringchromosome.o: myrand.h mt19937ar.h bitwisedistance.h
+dsmclusteringchromosome.o: tablelookup.h bbi.h twodarray.h statistics.h
+dsmclusteringchromosome.o: triMatrix.h fastcounting.h
+global.o: global.h myrand.h mt19937ar.h bitwisedistance.h tablelookup.h
+global.o: statistics.h
+bitwisedistance.o: bitwisedistance.h
+dsmga.o: dsmga.h global.h myrand.h mt19937ar.h bitwisedistance.h
+dsmga.o: tablelookup.h chromosome.h bbi.h statistics.h
+dsmga.o: dsmclusteringchromosome.h twodarray.h triMatrix.h
+chromosome.o: spin-glass.h chromosome.h global.h myrand.h mt19937ar.h bitwisedistance.h Tsuji.h 
+chromosome.o: tablelookup.h
+myrand.o: myrand.h mt19937ar.h
+tablelookup.o: chromosome.h global.h myrand.h mt19937ar.h bitwisedistance.h spin-glass.h
+tablelookup.o: tablelookup.h
+Tsuji.o:  bbi.h mt19937ar.h myrand.h
+spin-glass.o: global.h UFO.h myrand.h mt19937ar.h statistics.h bbi.h
+spin-glass.o: chromosome.h bitwisedistance.h spin-glass.h tablelookup.h
+spin-glass.o: Tsuji.h
+UFO.o: UFO.h myrand.h mt19937ar.h statistics.h bbi.h chromosome.h global.h
+UFO.o: bitwisedistance.h spin-glass.h tablelookup.h Tsuji.h

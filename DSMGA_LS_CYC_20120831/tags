@@ -1,0 +1,703 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BBI	bbi.cpp	/^BBI::BBI ()$/;"	f	class:BBI
+BBI	bbi.cpp	/^BBI::BBI (const BBI & bbi)$/;"	f	class:BBI
+BBI	bbi.cpp	/^BBI::BBI (int n_ell)$/;"	f	class:BBI
+BBI	bbi.h	/^class BBI$/;"	c
+BBI_H	bbi.h	21;"	d
+BBs	fitOC.h	/^        int BBs[505][9];$/;"	m	class:FitOverConflict
+BFSandUpdate	UFO.cpp	/^bool UFO::BFSandUpdate()$/;"	f	class:UFO
+BI_REPEAT	optnfe.cpp	13;"	d	file:
+BitForLink	fitOC.h	/^	int BitForLink[505];$/;"	m	class:FitOverConflict
+BitwiseDistance	bitwisedistance.cpp	/^BitwiseDistance::BitwiseDistance()$/;"	f	class:BitwiseDistance
+BitwiseDistance	bitwisedistance.h	/^class BitwiseDistance {$/;"	c
+CCADMIN	Makefile-DSMGA_UFO_v2.2.2.mk	/^CCADMIN=CCadmin$/;"	m
+CHI	global.h	42;"	d
+COUNTER	optnfe.cpp	20;"	d	file:
+CP	Makefile-DSMGA_UFO_v2.2.2.mk	/^CP=cp$/;"	m
+CXX	Makefile	/^CXX = g++ $/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -O3 -Wall -g$/;"	m
+CalcGraphInfo	fitOC.cpp	/^FitOverConflict::CalcGraphInfo(int length, double over, double conf, int s)$/;"	f	class:FitOverConflict
+Chromosome	chromosome.back.cpp	/^Chromosome::Chromosome ()$/;"	f	class:Chromosome
+Chromosome	chromosome.back.cpp	/^Chromosome::Chromosome (int n_length)$/;"	f	class:Chromosome
+Chromosome	chromosome.back.h	/^class Chromosome$/;"	c
+Chromosome	chromosome.cpp	/^Chromosome::Chromosome () {$/;"	f	class:Chromosome
+Chromosome	chromosome.cpp	/^Chromosome::Chromosome (int n_length) {$/;"	f	class:Chromosome
+Chromosome	chromosome.h	/^class Chromosome$/;"	c
+ConBB	fitOC.h	/^	int DomBB, ConBB, LinkageNum;$/;"	m	class:FitOverConflict
+DIS_M	global.h	45;"	d
+DSMClusteringChromosome	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::DSMClusteringChromosome ()$/;"	f	class:DSMClusteringChromosome
+DSMClusteringChromosome	dsmclusteringchromosome.h	/^class DSMClusteringChromosome$/;"	c
+DSMGA	dsmga.cpp	/^DSMGA::DSMGA(int n_ell, int n_nInitial, int n_selectionPressure, double n_pc,$/;"	f	class:DSMGA
+DSMGA	dsmga.h	/^class DSMGA {$/;"	c
+DomBB	fitOC.h	/^	int DomBB, ConBB, LinkageNum;$/;"	m	class:FitOverConflict
+E	dsmga.h	/^    int **E; \/\/ edges$/;"	m	class:Network
+EPS	dsmclusteringchromosome.cpp	892;"	d	file:
+EXP_TIME	bisection.backup.cpp	31;"	d	file:
+F	dsmga.h	/^    int **F; \/\/ flows$/;"	m	class:Network
+FITOC	chromosome.h	/^        FITOC$/;"	e	enum:Chromosome::Function
+FITOC_H	fitOC.h	2;"	d
+FPMIN	dsmclusteringchromosome.cpp	893;"	d	file:
+FastCounting	fastcounting.cpp	/^FastCounting::FastCounting ()$/;"	f	class:FastCounting
+FastCounting	fastcounting.cpp	/^FastCounting::FastCounting (int n_length)$/;"	f	class:FastCounting
+FastCounting	fastcounting.h	/^class FastCounting$/;"	c
+FitOverConflict	fitOC.cpp	/^FitOverConflict::FitOverConflict()$/;"	f	class:FitOverConflict
+FitOverConflict	fitOC.h	/^class FitOverConflict$/;"	c
+Function	chromosome.h	/^    static enum Function {$/;"	g	class:Chromosome
+GA_REPEAT	optnfe.cpp	18;"	d	file:
+GROUP_SIZE	global.h	46;"	d
+HIFF	chromosome.h	/^        HIFF,$/;"	e	enum:Chromosome::Function
+HTRAP	chromosome.h	/^        HTRAP,$/;"	e	enum:Chromosome::Function
+HXOR	chromosome.h	/^        HXOR,$/;"	e	enum:Chromosome::Function
+ID	spin-glass.h	/^    char ID[120];$/;"	m	struct:SpinGlassParams
+INCLUDE	Makefile	/^INCLUDE = $/;"	m
+INF	statistics.h	13;"	d
+JudgeBBs	fitOC.cpp	/^FitOverConflict::JudgeBBs()$/;"	f	class:FitOverConflict
+JudgeIfPointCanMerge	fitOC.cpp	/^FitOverConflict::JudgeIfPointCanMerge(int Blk1, int Blk2)$/;"	f	class:FitOverConflict
+LEN_SUB	dataSampling.cpp	10;"	d	file:
+LOWER_MASK	mt19937ar.cpp	54;"	d	file:
+Linkage	dsmga.cpp	/^    Linkage() {$/;"	f	class:Linkage
+Linkage	dsmga.cpp	/^class Linkage {$/;"	c	file:
+LinkageNum	fitOC.h	/^	int DomBB, ConBB, LinkageNum;$/;"	m	class:FitOverConflict
+M	mt19937ar.cpp	51;"	d	file:
+MATRIX_A	mt19937ar.cpp	52;"	d	file:
+MAXIT	dsmclusteringchromosome.cpp	891;"	d	file:
+MAX_GEN	UFOMain.cpp	16;"	d	file:
+MAX_GEN	bisection.cpp	17;"	d	file:
+MAX_GEN	optnfe.cpp	9;"	d	file:
+MAX_GEN	repeated-bisection.cpp	33;"	d	file:
+MAX_K	global.h	44;"	d
+MAX_PARENT	global.h	47;"	d
+MKDIR	Makefile-DSMGA_UFO_v2.2.2.mk	/^MKDIR=mkdir$/;"	m
+MKHC	chromosome.back.cpp	/^Chromosome::MKHC () const$/;"	f	class:Chromosome
+MKHC	chromosome.cpp	/^Chromosome::MKHC () const {$/;"	f	class:Chromosome
+MKTRAP	chromosome.h	/^        MKTRAP,$/;"	e	enum:Chromosome::Function
+MKTrap0	chromosome.back.cpp	/^Chromosome::MKTrap0 (double fHigh, double fLow) const$/;"	f	class:Chromosome
+MKTrap0	chromosome.cpp	/^double Chromosome::MKTrap0 (double fHigh, double fLow) const {$/;"	f	class:Chromosome
+MKTrap1	chromosome.back.cpp	/^Chromosome::MKTrap1 (double fHigh, double fLow) const$/;"	f	class:Chromosome
+MKTrap1	chromosome.cpp	/^Chromosome::MKTrap1 (double fHigh, double fLow) const {$/;"	f	class:Chromosome
+MKtrap5	chromosome.back.cpp	/^Chromosome::MKtrap5 () const$/;"	f	class:Chromosome
+MT19937AR_H	mt19937ar.cpp	45;"	d	file:
+MYRAND_H	myrand.h	19;"	d
+MakeGraph	fitOC.cpp	/^FitOverConflict::MakeGraph()$/;"	f	class:FitOverConflict
+MergePoints	fitOC.cpp	/^FitOverConflict::MergePoints(int Blk1, int Blk2)$/;"	f	class:FitOverConflict
+MyRand	myrand.cpp	/^MyRand::MyRand ()$/;"	f	class:MyRand
+MyRand	myrand.h	/^class MyRand$/;"	c
+N	mt19937ar.cpp	50;"	d	file:
+N	myrand.cpp	28;"	d	file:
+N	spin-glass.h	/^    int N;$/;"	m	struct:SpinGlassParams
+NDEBUG	global.h	25;"	d
+NDEBUG	twodarray.h	30;"	d
+NFE_REPEAT	optnfe.cpp	19;"	d	file:
+NFE_ST	bisection.backup.cpp	/^Statistics NFE_ST;$/;"	v
+NUMCONV	optnfe.cpp	12;"	d	file:
+Network	dsmga.h	/^    Network() {$/;"	f	class:Network
+Network	dsmga.h	/^    Network(int n1) {$/;"	f	class:Network
+Network	dsmga.h	/^class Network {$/;"	c
+OBJ	Makefile	/^OBJ = $(addsuffix .o, $(basename $(SRC)))$/;"	m
+OBJ1	Makefile	/^OBJ1 = $(addsuffix .o, $(basename $(SRC1)))$/;"	m
+OBJ2	Makefile	/^OBJ2 = $(addsuffix .o, $(basename $(SRC2)))$/;"	m
+OBJ3	Makefile	/^OBJ3 = $(addsuffix .o, $(basename $(SRC3)))$/;"	m
+OBJ4	Makefile	/^OBJ4 = $(addsuffix .o, $(basename $(SRC4)))$/;"	m
+OBJ5	Makefile	/^OBJ5 = $(addsuffix .o, $(basename $(SRC5)))$/;"	m
+OBJ6	Makefile	/^OBJ6 = $(addsuffix .o, $(basename $(SRC6)))$/;"	m
+OBJ7	Makefile	/^OBJ7 = $(addsuffix .o, $(basename $(SRC7)))$/;"	m
+OCFitGenRecorder	dsmgaMain.cpp	/^Statistics OCFitGenRecorder;$/;"	v
+OCFitSpGenRecorder	dsmgaMain.cpp	/^Statistics OCFitSpGenRecorder;$/;"	v
+OCFitSuceedRecorder	dsmgaMain.cpp	/^Statistics OCFitSuceedRecorder;$/;"	v
+OCFitness	chromosome.cpp	/^double Chromosome::OCFitness () const {$/;"	f	class:Chromosome
+ONEMAX	chromosome.h	/^        ONEMAX,$/;"	e	enum:Chromosome::Function
+PI	myrand.cpp	24;"	d	file:
+PI	myrand.cpp	27;"	d	file:
+POPU_ST	bisection.backup.cpp	/^Statistics POPU_ST;$/;"	v
+PRECISION	optnfe.cpp	17;"	d	file:
+Partition	global.cpp	/^int Partition(int * list,  const double * p, const int & start, const int& last ) {$/;"	f
+QuickSort	global.cpp	/^void QuickSort(int * list, const double * p, const int & start, const int& last ) {$/;"	f
+RELIABLE	optnfe.cpp	14;"	d	file:
+REPEAT	UFOMain.cpp	15;"	d	file:
+RTR	dsmga.cpp	/^void DSMGA::RTR() {$/;"	f	class:DSMGA
+SAME_PBM_REPEAT	dsmgaMain.cpp	31;"	d	file:
+SAME_SETTING_REPEAT	dsmgaMain.cpp	32;"	d	file:
+SBSXO	bisection.backup.cpp	39;"	d	file:
+SBSXO	bisection.cpp	21;"	d	file:
+SHORT_HAND	global.cpp	/^bool SHORT_HAND = false;$/;"	v
+SHOW_BISECTION	bisection.backup.cpp	32;"	d	file:
+SHOW_BISECTION	global.cpp	/^bool SHOW_BISECTION = true;$/;"	v
+SHOW_BUSINESSMEN	global.cpp	/^bool SHOW_BUSINESSMEN = false;$/;"	v
+SHOW_COMPRESSION	global.cpp	/^bool SHOW_COMPRESSION = false;$/;"	v
+SHOW_DETAIL	optnfe.cpp	/^bool SHOW_DETAIL = false;$/;"	v
+SHOW_DSM	global.cpp	/^bool SHOW_DSM = false;$/;"	v
+SHOW_GEN2BB	Tsuji.h	16;"	d
+SHOW_HC	global.cpp	/^bool SHOW_HC = false;$/;"	v
+SHOW_LINKAGE	global.cpp	/^bool SHOW_LINKAGE = false;$/;"	v
+SHOW_MAPPING	global.cpp	/^bool SHOW_MAPPING = false;$/;"	v
+SHOW_POPULATION	global.cpp	/^bool SHOW_POPULATION = false;$/;"	v
+SHOW_REPLACEMENT	global.cpp	/^bool SHOW_REPLACEMENT = false;$/;"	v
+SHOW_SELECTION_INDEX	global.cpp	/^bool SHOW_SELECTION_INDEX = false;$/;"	v
+SPINGLASS	chromosome.h	/^        SPINGLASS,$/;"	e	enum:Chromosome::Function
+SRC	Makefile	/^SRC = $(SRC1) $(SRC2) $(dSRC) $(SRC3) $(SRC4) $(SRC5) $(SRC6) $(SRC7)$/;"	m
+SRC1	Makefile	/^SRC1 = fastcounting.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp dsmgaMain.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp fitOC.cpp globalFitOC spin-glass.cpp$/;"	m
+SRC2	Makefile	/^SRC2 = fastcounting.cpp bisection.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp  fitOC.cpp globalFitOC spin-glass.cpp$/;"	m
+SRC3	Makefile	/^SRC3 = fastcounting.cpp repeated-bisection.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp  fitOC.cpp globalFitOC spin-glass.cpp$/;"	m
+SRC4	Makefile	/^SRC4 = fastcounting.cpp optnfe.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp  fitOC.cpp globalFitOC spin-glass.cpp$/;"	m
+SRC5	Makefile	/^SRC5 = UFOMain.cpp fastcounting.cpp bbi.cpp dsmclusteringchromosome.cpp global.cpp bitwisedistance.cpp dsmga.cpp mt19937ar.cpp chromosome.cpp myrand.cpp tablelookup.cpp UFO.cpp  Tsuji.cpp fitOC.cpp  spin-glass.cpp$/;"	m
+SRC6	Makefile	/^SRC6 = testConflict.cpp fastcounting.cpp bbi.cpp  bitwisedistance.cpp mt19937ar.cpp chromosome.cpp global.cpp tablelookup.cpp myrand.cpp UFO.cpp Tsuji.cpp fitOC.cpp  spin-glass.cpp$/;"	m
+SRC7	Makefile	/^SRC7 = testGlobal.cpp fastcounting.cpp bbi.cpp  bitwisedistance.cpp mt19937ar.cpp chromosome.cpp global.cpp tablelookup.cpp myrand.cpp  UFO.cpp fitOC.cpp  spin-glass.cpp$/;"	m
+SpinGlassParams	spin-glass.h	/^struct SpinGlassParams {$/;"	s
+Statistics	statistics.h	/^  Statistics ()$/;"	f	class:Statistics
+Statistics	statistics.h	/^class Statistics$/;"	c
+TLIB	Makefile	/^TLIB = $/;"	m
+TRAP3339	chromosome.h	/^        TRAP3339,$/;"	e	enum:Chromosome::Function
+TRAP_K	global.h	43;"	d
+TSUJI	chromosome.h	/^        TSUJI,$/;"	e	enum:Chromosome::Function
+TSUJI_CPP	Tsuji.cpp	2;"	d	file:
+TSUJI_H	Tsuji.h	2;"	d
+TWODARRAY_H	twodarray.h	21;"	d
+TableLookUp	tablelookup.cpp	/^TableLookUp::TableLookUp()$/;"	f	class:TableLookUp
+TableLookUp	tablelookup.h	/^class TableLookUp {$/;"	c
+TableLookUpType	tablelookup.h	/^typedef enum TableLookUpType {$/;"	g
+Trap3339	chromosome.cpp	/^double Chromosome::Trap3339() const {$/;"	f	class:Chromosome
+TriMatrix	triMatrix.h	/^        TriMatrix ()$/;"	f	class:TriMatrix
+TriMatrix	triMatrix.h	/^        TriMatrix (int n)$/;"	f	class:TriMatrix
+TriMatrix	triMatrix.h	/^template <class T> class TriMatrix$/;"	c
+Tsuji	Tsuji.cpp	/^Tsuji::Tsuji()$/;"	f	class:Tsuji
+Tsuji	Tsuji.h	/^class Tsuji{$/;"	c
+TsujiFitness	chromosome.cpp	/^Chromosome::TsujiFitness() const {$/;"	f	class:Chromosome
+TwoDArray	twodarray.h	/^  TwoDArray ()$/;"	f	class:TwoDArray
+TwoDArray	twodarray.h	/^  TwoDArray (int n_lengthX, int n_lengthY)$/;"	f	class:TwoDArray
+TwoDArray	twodarray.h	/^template < class T > class TwoDArray$/;"	c
+UFO	UFO.cpp	/^UFO::UFO( const int& m, const int& k, const double& desiredW)$/;"	f	class:UFO
+UFO	UFO.cpp	/^UFO::UFO()$/;"	f	class:UFO
+UFO	UFO.cpp	/^UFO::UFO(const UFO& orig)$/;"	f	class:UFO
+UFO	UFO.h	/^class UFO$/;"	c
+UFO	chromosome.h	/^        UFO,$/;"	e	enum:Chromosome::Function
+UFOFitness	chromosome.cpp	/^double Chromosome::UFOFitness () const {$/;"	f	class:Chromosome
+UFO_H	UFO.h	9;"	d
+UPPER_MASK	mt19937ar.cpp	53;"	d	file:
+VECTOR_H	vector.h	2;"	d
+V_size	global.cpp	/^int V_size = 0;$/;"	v
+Vector	vector.h	/^  Vector(int n1){$/;"	f	class:Vector
+Vector	vector.h	/^class Vector{$/;"	c
+WOLFF_PROBABILITY	spin-glass.cpp	9;"	d	file:
+_BITWISEDISTANCE_H_	bitwisedistance.h	3;"	d
+_CHROMOSOME_H	chromosome.back.h	7;"	d
+_CHROMOSOME_H	chromosome.h	6;"	d
+_DSMCLUSTERINGCHROMOSOME_H	dsmclusteringchromosome.h	21;"	d
+_DSMGA_H	dsmga.h	3;"	d
+_FASTCOUNTING_H	fastcounting.h	7;"	d
+_GLOBAL_H	global.h	23;"	d
+_STATISTICS_H	statistics.h	3;"	d
+_TABLE_LOOK_UP_H	tablelookup.h	3;"	d
+_TRI_MATRIX_	triMatrix.h	3;"	d
+_spinglass_h_	spin-glass.h	2;"	d
+add	dsmga.cpp	/^void Linkage::add(int i) {$/;"	f	class:Linkage
+add	vector.h	/^  void add(int i){$/;"	f	class:Vector
+addPartToCluster	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::addPartToCluster (int p, int c)$/;"	f	class:DSMClusteringChromosome
+add_edge	dsmga.h	/^    void add_edge(int i, int j) {$/;"	f	class:Network
+addset	dsmga.cpp	/^    void addset(Linkage &from) {$/;"	f	class:Linkage
+addset	dsmga.cpp	/^    void addset(int *bb) {$/;"	f	class:Linkage
+alloc	dsmga.h	/^    void alloc() {$/;"	f	class:Network
+alloc	dsmga.h	/^    void alloc(int n1) {$/;"	f	class:Network
+alloc_map	dsmga.h	/^    void alloc_map(int n) {$/;"	f	class:Network
+allocate	dsmga.cpp	/^void Linkage::allocate(int n_elem1) {$/;"	f	class:Linkage
+array	twodarray.h	/^  T **array;$/;"	m	class:TwoDArray
+b2B	UFO.h	/^    Statistics b2B;$/;"	m	class:UFO
+bb	bbi.h	/^  int **bb;$/;"	m	class:BBI
+bb2gene	UFO.h	/^    int** bb2gene;$/;"	m	class:UFO
+bbMutation	dsmga.cpp	/^void DSMGA::bbMutation(Chromosome & ch) {$/;"	f	class:DSMGA
+bbNum	bbi.h	/^  int bbNum;$/;"	m	class:BBI
+bbSize	UFO.h	/^    int* bbSize;$/;"	m	class:UFO
+bbType	UFO.h	/^    int* bbType;$/;"	m	class:UFO
+bbUniformXO	dsmga.cpp	/^void DSMGA::bbUniformXO() {$/;"	f	class:DSMGA
+bbUniformXO	dsmga.cpp	/^void DSMGA::bbUniformXO(Chromosome & p1, Chromosome & p2, Chromosome & c1, Chromosome & c2, double prob) {$/;"	f	class:DSMGA
+bbi	Tsuji.h	/^    BBI     bbi;$/;"	m	class:Tsuji
+bbi	UFO.h	/^    BBI bbi;$/;"	m	class:UFO
+bbi	dsmga.h	/^    BBI bbi; \/\/ BB Information$/;"	m	class:DSMGA
+bbiCalculated	dsmga.h	/^    bool bbiCalculated;$/;"	m	class:DSMGA
+bbiErrorOutFile	global.cpp	/^char bbiErrorOutFile[100];$/;"	v
+bestChromosome	UFO.h	/^    int* bestChromosome;$/;"	m	class:UFO
+bestIndex	dsmga.h	/^    int bestIndex;$/;"	m	class:DSMGA
+betaSplit	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::betaSplit(double mean, double variance)$/;"	f	class:DSMClusteringChromosome
+betacf	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::betacf(double a, double b, double x)$/;"	f	class:DSMClusteringChromosome
+big	fitOC.h	/^	int big[5005];$/;"	m	class:FitOverConflict
+bitanswer	fitOC.h	/^        int bitanswer[505];$/;"	m	class:FitOverConflict
+block_score	fitOC.cpp	/^FitOverConflict::block_score(int t, int type)$/;"	f	class:FitOverConflict
+calculateBBIError	bbi.cpp	/^int BBI::calculateBBIError(const BBI & bbi, int & correct, int& miss ) const {$/;"	f	class:BBI
+calculateBBIError	dsmga.cpp	/^void DSMGA::calculateBBIError() {$/;"	f	class:DSMGA
+ccopy	vector.h	/^void ccopy(char *from, char *to, int n)$/;"	f	class:Vector
+cdc_for_1pair	dsmga.cpp	/^void DSMGA::cdc_for_1pair(Chromosome &p1, Chromosome &p2, Chromosome &c1, Chromosome &c2, Network &onet) {$/;"	f	class:DSMGA
+cdc_for_1pair_s	dsmga.cpp	/^void DSMGA::cdc_for_1pair_s(Chromosome &p1, Chromosome &p2, Chromosome &c1, Chromosome &c2, Network &onet) {$/;"	f	class:DSMGA
+checkAndSetGlobalOptimum	UFO.cpp	/^bool UFO::checkAndSetGlobalOptimum()$/;"	f	class:UFO
+checkGlobalOptimum	UFO.cpp	/^bool UFO::checkGlobalOptimum()$/;"	f	class:UFO
+checkRange	Tsuji.cpp	/^Tsuji::checkRange(double d,int l)$/;"	f	class:Tsuji
+checkRange	dataSampling.cpp	/^double checkRange(double d,int l)$/;"	f
+clem	vector.h	/^  char *clem;   \/\/ flag for elements$/;"	m	class:Vector
+clusterInformation	dsmclusteringchromosome.h	/^        BBI clusterInformation;$/;"	m	class:DSMClusteringChromosome
+clusterNumberArray	dsmclusteringchromosome.h	/^        TwoDArray < int > clusterNumberArray;$/;"	m	class:DSMClusteringChromosome
+computeIMeanVar	dsmclusteringchromosome.cpp	/^void DSMClusteringChromosome::computeIMeanVar(double *mean, double *variance, double q00, double q01, double q10, double q11, double mi, int n)$/;"	f	class:DSMClusteringChromosome
+conflict	UFO.cpp	/^int UFO::conflict()$/;"	f	class:UFO
+conflict2	UFO.cpp	/^int UFO::conflict2( const int& totalConflict)$/;"	f	class:UFO
+conflict3	UFO.cpp	/^int UFO::conflict3( const int& totalConflict)$/;"	f	class:UFO
+conflict4	UFO.cpp	/^int UFO::conflict4( const int& totalConflict)$/;"	f	class:UFO
+conflictedBB	UFO.h	/^    int conflictedBB;$/;"	m	class:UFO
+construct	UFO.cpp	/^bool UFO::construct(const int& tempN, const int& tempK, const double& tempDesiredW)$/;"	f	class:UFO
+constructGraph	UFO.cpp	/^void UFO::constructGraph()$/;"	f	class:UFO
+construct_the_original_graph	dsmga.cpp	/^void DSMGA::construct_the_original_graph(Network &onet) {$/;"	f	class:DSMGA
+copy	vector.h	/^  void copy(Vector &v){$/;"	f	class:Vector
+countOne	bitwisedistance.cpp	/^int BitwiseDistance::countOne(unsigned long distance)$/;"	f	class:BitwiseDistance
+countOverlap	dsmga.cpp	/^int DSMGA::countOverlap(Chromosome & p1, Chromosome & p2) {$/;"	f	class:DSMGA
+createArray	bitwisedistance.cpp	/^void BitwiseDistance::createArray()$/;"	f	class:BitwiseDistance
+createDSMCC	dsmclusteringchromosome.cpp	/^void DSMClusteringChromosome::createDSMCC (Chromosome* population, int populationSize, int selectionPressure, int *selectionIndex)$/;"	f	class:DSMClusteringChromosome
+createProblem	UFO.cpp	/^bool UFO::createProblem(const int& n, const int& k, const double& desiredW, int confliction)$/;"	f	class:UFO
+createProblem	fitOC.cpp	/^FitOverConflict::createProblem(int length, double over, double conf, int s)$/;"	f	class:FitOverConflict
+createTable	tablelookup.cpp	/^void TableLookUp::createTable(TableLookUpType type)$/;"	f	class:TableLookUp
+crossOver	dsmga.cpp	/^void DSMGA::crossOver() {$/;"	f	class:DSMGA
+d	spin-glass.h	/^    int d;$/;"	m	struct:SpinGlassParams
+dOBJ	Makefile	/^dOBJ = $(addsuffix .o, $(basename $(dSRC)))$/;"	m
+dSRC	Makefile	/^dSRC = dataSampling.cpp myrand.cpp mt19937ar.cpp$/;"	m
+dataMax	global.cpp	/^int dataMax = 0;$/;"	v
+dataMin	global.cpp	/^int dataMin = INT_MAX;$/;"	v
+dataStd	global.cpp	/^double dataStd = 0;$/;"	v
+decisionV	global.cpp	/^int* decisionV;$/;"	v
+degree	fitOC.h	/^	int degree[505];$/;"	m	class:FitOverConflict
+del	vector.h	/^  void del(int i){$/;"	f	class:Vector
+demote	spin-glass.cpp	/^inline void demote(double *x, int *idx, int initI, int n)$/;"	f
+desiredW	UFO.h	/^    double desiredW;$/;"	m	class:UFO
+distanceMap	bitwisedistance.h	/^  char *distanceMap;$/;"	m	class:BitwiseDistance
+doIt	dsmga.cpp	/^int DSMGA::doIt(bool output, int mode) {$/;"	f	class:DSMGA
+do_disrupt_bb	dsmga.cpp	/^char do_disrupt_bb(Chromosome &p1, Chromosome &p2, int *bb1, int *bb2) {$/;"	f
+dsm	dsmclusteringchromosome.cpp	/^TriMatrix <double> DSMClusteringChromosome::dsm;$/;"	m	class:DSMClusteringChromosome	file:
+dsm	dsmclusteringchromosome.h	/^        static TriMatrix<double> dsm;$/;"	m	class:DSMClusteringChromosome
+dsmgaOneRun	bisection.backup.cpp	/^bool dsmgaOneRun(int ell, int runSize, int maxGen, int& usedGen){$/;"	f
+edge_list	dsmga.h	/^    int **edge_list;$/;"	m	class:Network
+elem	dsmga.cpp	/^    int *elem;$/;"	m	class:Linkage	file:
+elem	vector.h	/^  int  *elem;   \/\/ elements$/;"	m	class:Vector
+ell	bbi.h	/^  int ell;$/;"	m	class:BBI
+ell	dsmga.h	/^    int ell; \/\/ chromosome length$/;"	m	class:DSMGA
+ell	fitOC.h	/^        int size, ell, totalBB;$/;"	m	class:FitOverConflict
+evaluate	UFO.cpp	/^void UFO::evaluate()$/;"	f	class:UFO
+evaluate	chromosome.back.cpp	/^Chromosome::evaluate ()$/;"	f	class:Chromosome
+evaluate	chromosome.cpp	/^Chromosome::evaluate () {$/;"	f	class:Chromosome
+evaluated	UFO.h	/^    bool evaluated;$/;"	m	class:UFO
+evaluated	chromosome.back.h	/^        bool evaluated;$/;"	m	class:Chromosome
+evaluated	chromosome.h	/^    bool evaluated;$/;"	m	class:Chromosome
+exchange	dsmga.cpp	/^    void exchange(Chromosome &p1, Chromosome &p2, Chromosome &c1, Chromosome &c2, int len) {$/;"	f	class:Linkage
+experimentOneRun	bisection.backup.cpp	/^bool experimentOneRun(int ell, int bbsize, float oRatio, float cRatio, int lower, int upper, $/;"	f
+fe	dsmga.h	/^    int fe;$/;"	m	class:DSMGA
+findConflictedBB	UFO.cpp	/^int UFO::findConflictedBB()$/;"	f	class:UFO
+findCorrectModel	dsmga.cpp	/^bool DSMGA::findCorrectModel(int requiredMatchedM) {$/;"	f	class:DSMGA
+findInitialPopulation	dsmga.cpp	/^int DSMGA::findInitialPopulation() {$/;"	f	class:DSMGA
+findMax	global.cpp	/^findMax (int number, int index[], double values[], int size)$/;"	f
+findMax	global.cpp	/^findMax (int number, int index[], int values[], int size)$/;"	f
+findMin	global.cpp	/^findMin (int number, int index[], double values[], int size)$/;"	f
+findMin	global.cpp	/^findMin (int number, int index[], int values[], int size)$/;"	f
+findb	fitOC.cpp	/^FitOverConflict::findb(int x)$/;"	f	class:FitOverConflict
+fitness	chromosome.back.h	/^        double fitness;$/;"	m	class:Chromosome
+fitness	chromosome.h	/^    double fitness;$/;"	m	class:Chromosome
+fitoc	global.cpp	/^FitOverConflict fitoc;$/;"	v
+flag	fitOC.h	/^        int flag;$/;"	m	class:FitOverConflict
+flip	myrand.cpp	/^bool MyRand::flip ()$/;"	f	class:MyRand
+flip	myrand.cpp	/^bool MyRand::flip (double prob)$/;"	f	class:MyRand
+foundOptima	dsmga.cpp	/^bool DSMGA::foundOptima() {$/;"	f	class:DSMGA
+free	dsmga.cpp	/^void Linkage::free() {$/;"	f	class:Linkage
+free	dsmga.h	/^    void free() {$/;"	f	class:Network
+freeSpinGlassInstance	spin-glass.cpp	/^int freeSpinGlassInstance(SpinGlassParams *spinGlassParams)$/;"	f
+friendInteractions	spin-glass.h	/^    double **friendInteractions;$/;"	m	struct:SpinGlassParams
+friends	spin-glass.h	/^    int **friends;$/;"	m	struct:SpinGlassParams
+fullReplace	dsmga.cpp	/^void DSMGA::fullReplace() {$/;"	f	class:DSMGA
+function	chromosome.cpp	/^Chromosome::Function Chromosome::function = MKTRAP;$/;"	m	class:Chromosome	file:
+function	chromosome.h	/^    } function;$/;"	m	class:Chromosome	typeref:enum:Chromosome::Function
+g2B	UFO.h	/^    Statistics g2B;$/;"	m	class:UFO
+gammaLn	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::gammaLn(double xx)$/;"	f	class:DSMClusteringChromosome
+gammaSplit	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::gammaSplit(double mean, double variance)$/;"	f	class:DSMClusteringChromosome
+gaussianSplit	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::gaussianSplit(double mean, double variance)$/;"	f	class:DSMClusteringChromosome
+gen2BB	Tsuji.h	/^    int**   gen2BB;$/;"	m	class:Tsuji
+gene	chromosome.back.h	/^        unsigned long *gene;$/;"	m	class:Chromosome
+gene	chromosome.h	/^    unsigned long *gene;$/;"	m	class:Chromosome
+gene	dsmclusteringchromosome.h	/^        int *gene;$/;"	m	class:DSMClusteringChromosome
+gene	fastcounting.h	/^  unsigned long *gene;$/;"	m	class:FastCounting
+gene2bb	UFO.h	/^    int** gene2bb;$/;"	m	class:UFO
+geneOmega	UFO.h	/^    int* geneOmega;$/;"	m	class:UFO
+geneSize	UFO.h	/^    int* geneSize;$/;"	m	class:UFO
+generateMoneTest	global.cpp	/^void generateMoneTest(const int& ell, const int& std,int repeat,int maxOverlap) {$/;"	f
+generation	dsmga.h	/^    int generation;$/;"	m	class:DSMGA
+genrand_int31	mt19937ar.cpp	/^genrand_int31 (void)$/;"	f
+genrand_int32	mt19937ar.cpp	/^genrand_int32 (void)$/;"	f
+genrand_real1	mt19937ar.cpp	/^genrand_real1 (void)$/;"	f
+genrand_real2	mt19937ar.cpp	/^genrand_real2 (void)$/;"	f
+genrand_real3	mt19937ar.cpp	/^genrand_real3 (void)$/;"	f
+genrand_res53	mt19937ar.cpp	/^genrand_res53 (void)$/;"	f
+get2rands	dsmga.cpp	/^void get2rands(int *v1, int *v2, int n) {$/;"	f
+getB2BMean	UFO.cpp	/^double UFO::getB2BMean()$/;"	f	class:UFO
+getB2BStd	UFO.cpp	/^double UFO::getB2BStd()$/;"	f	class:UFO
+getBBDistance	dsmga.cpp	/^int DSMGA::getBBDistance(Chromosome & c1, Chromosome & c2) {$/;"	f	class:DSMGA
+getBBI	Tsuji.cpp	/^Tsuji::getBBI()$/;"	f	class:Tsuji
+getBBI	Tsuji.cpp	/^Tsuji::getBBI(double w, int k, int ell, double std, int fCount)$/;"	f	class:Tsuji
+getBBI	UFO.cpp	/^BBI UFO::getBBI()$/;"	f	class:UFO
+getBBI	dsmclusteringchromosome.cpp	/^BBI DSMClusteringChromosome::getBBI ()$/;"	f	class:DSMClusteringChromosome
+getBBI	dsmga.cpp	/^void DSMGA::getBBI() {$/;"	f	class:DSMGA
+getBBIMKTrap	dsmga.cpp	/^void DSMGA::getBBIMKTrap() {$/;"	f	class:DSMGA
+getBBIMune	dsmga.cpp	/^BBI DSMGA::getBBIMune() {$/;"	f	class:DSMGA
+getBBIOneMax	dsmga.cpp	/^DSMGA::getBBIOneMax() {$/;"	f	class:DSMGA
+getBBStrength	dsmga.cpp	/^double DSMGA::getBBStrength(int *bb)$/;"	f	class:DSMGA
+getCorrectBBsMKTrap	chromosome.back.cpp	/^Chromosome::getCorrectBBsMKTrap () const $/;"	f	class:Chromosome
+getCorrectBBsMKTrap	chromosome.cpp	/^Chromosome::getCorrectBBsMKTrap () const {$/;"	f	class:Chromosome
+getDeltaFitnessIfInvertPC	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::getDeltaFitnessIfInvertPC (int p, int c)$/;"	f	class:DSMClusteringChromosome
+getDistance	dsmga.cpp	/^int DSMGA::getDistance(Chromosome & c1, Chromosome & c2) {$/;"	f	class:DSMGA
+getFitness	UFO.cpp	/^double UFO::getFitness( int const * chromosome ) const$/;"	f	class:UFO
+getFitness	chromosome.back.cpp	/^Chromosome::getFitness ()$/;"	f	class:Chromosome
+getFitness	chromosome.cpp	/^Chromosome::getFitness () {$/;"	f	class:Chromosome
+getFitnessIfInvertPC	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::getFitnessIfInvertPC (double originalFitness, int p, int c)$/;"	f	class:DSMClusteringChromosome
+getG2BMaxDifference	UFO.cpp	/^int UFO::getG2BMaxDifference()$/;"	f	class:UFO
+getG2BStd	UFO.cpp	/^double UFO::getG2BStd()$/;"	f	class:UFO
+getGeneration	dsmga.h	/^    int getGeneration() const {$/;"	f	class:DSMGA
+getHammingDistance	bitwisedistance.cpp	/^int BitwiseDistance::getHammingDistance(unsigned long a, unsigned long b)$/;"	f	class:BitwiseDistance
+getInitialFitness	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::getInitialFitness ()$/;"	f	class:DSMClusteringChromosome
+getInt	chromosome.back.cpp	/^unsigned int Chromosome::getInt (int start, int length) const$/;"	f	class:Chromosome
+getInt	chromosome.cpp	/^unsigned int Chromosome::getInt (int start, int length) const {$/;"	f	class:Chromosome
+getInt	fastcounting.cpp	/^unsigned int FastCounting::getInt (int start, int length) const$/;"	f	class:FastCounting
+getLength	chromosome.back.cpp	/^int Chromosome::getLength () const$/;"	f	class:Chromosome
+getLength	chromosome.cpp	/^int Chromosome::getLength () const {$/;"	f	class:Chromosome
+getLength	fastcounting.cpp	/^int FastCounting::getLength () const$/;"	f	class:FastCounting
+getM	Tsuji.cpp	/^Tsuji::getM()$/;"	f	class:Tsuji
+getMax	statistics.h	/^  double getMax ()$/;"	f	class:Statistics
+getMaxFitness	Tsuji.cpp	/^Tsuji::getMaxFitness()$/;"	f	class:Tsuji
+getMaxFitness	UFO.cpp	/^double UFO::getMaxFitness() const$/;"	f	class:UFO
+getMaxFitness	chromosome.back.cpp	/^Chromosome::getMaxFitness () const$/;"	f	class:Chromosome
+getMaxFitness	chromosome.cpp	/^double Chromosome::getMaxFitness () const {$/;"	f	class:Chromosome
+getMaxFitness	dsmga.h	/^	double getMaxFitness() {return stFitness.getMax();}$/;"	f	class:DSMGA
+getMaxFitness	fitOC.cpp	/^FitOverConflict::getMaxFitness()$/;"	f	class:FitOverConflict
+getMaxOmega	UFO.cpp	/^double UFO::getMaxOmega()$/;"	f	class:UFO
+getMean	statistics.h	/^  double getMean ()$/;"	f	class:Statistics
+getMeanOmega	UFO.cpp	/^double UFO::getMeanOmega()$/;"	f	class:UFO
+getMin	statistics.h	/^  double getMin ()$/;"	f	class:Statistics
+getMinOmega	UFO.cpp	/^double UFO::getMinOmega()$/;"	f	class:UFO
+getMutualInformation	dsmga.cpp	/^void DSMGA::getMutualInformation ( double** mi) {$/;"	f	class:DSMGA
+getNumOfBBs	UFO.cpp	/^int UFO::getNumOfBBs() const$/;"	f	class:UFO
+getNumOfGenes	UFO.cpp	/^int UFO::getNumOfGenes() const$/;"	f	class:UFO
+getNumber	statistics.h	/^  long int getNumber ()$/;"	f	class:Statistics
+getNumofMatchedBB	bbi.cpp	/^int BBI::getNumofMatchedBB (const BBI& bbi) const$/;"	f	class:BBI
+getOCFitness	chromosome.back.cpp	/^Chromosome::getOCFitness() const {$/;"	f	class:Chromosome
+getOCMaxFitness	chromosome.back.cpp	/^Chromosome::getOCMaxFitness() const {$/;"	f	class:Chromosome
+getSecondMax	statistics.h	/^  double getSecondMax ()$/;"	f	class:Statistics
+getSecondMin	statistics.h	/^  double getSecondMin ()$/;"	f	class:Statistics
+getStdev	statistics.h	/^  double getStdev ()$/;"	f	class:Statistics
+getTotalConflictedBB	UFO.cpp	/^int UFO::getTotalConflictedBB()$/;"	f	class:UFO
+getTsujiFitness	chromosome.back.cpp	/^Chromosome::getTsujiFitness() const$/;"	f	class:Chromosome
+getTsujiMaxFitness	chromosome.back.cpp	/^double Chromosome::getTsujiMaxFitness() const {$/;"	f	class:Chromosome
+getUFOFitness	chromosome.back.cpp	/^double Chromosome::getUFOFitness() const {$/;"	f	class:Chromosome
+getUFOMaxFitness	chromosome.back.cpp	/^double Chromosome::getUFOMaxFitness() const {$/;"	f	class:Chromosome
+getUnusedGenes	UFO.cpp	/^int UFO::getUnusedGenes()$/;"	f	class:UFO
+getVal	chromosome.back.h	/^        int getVal (int index) const$/;"	f	class:Chromosome
+getVal	chromosome.h	/^    int getVal (int index) const {$/;"	f	class:Chromosome
+getVal	fastcounting.cpp	/^inline int FastCounting::getVal (int index) const $/;"	f	class:FastCounting
+getValue	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::getValue (int p, int c)$/;"	f	class:DSMClusteringChromosome
+getVariance	statistics.h	/^  double getVariance ()$/;"	f	class:Statistics
+getZeros	UFO.cpp	/^int UFO::getZeros() const$/;"	f	class:UFO
+getbest	dsmga.h	/^	int getbest(int i) {return population[bestIndex].getVal(i);}$/;"	f	class:DSMGA
+gibbsXO	dsmga.cpp	/^void DSMGA::gibbsXO() {$/;"	f	class:DSMGA
+globalOptimum	UFO.h	/^    double globalOptimum;$/;"	m	class:UFO
+graph	UFO.h	/^    list<int>* graph;$/;"	m	class:UFO
+graph	fitOC.h	/^        int graph[1005][9];$/;"	m	class:FitOverConflict
+hIFF	chromosome.back.cpp	/^double Chromosome::hIFF () const$/;"	f	class:Chromosome
+hIFF	chromosome.cpp	/^double Chromosome::hIFF () const {$/;"	f	class:Chromosome
+hIFF	tablelookup.h	/^    hIFF,$/;"	e	enum:TableLookUpType
+hIFFBigH	chromosome.back.cpp	/^int Chromosome::hIFFBigH (int start, int hIFFLength, bool lookUpTable) const$/;"	f	class:Chromosome
+hIFFBigH	chromosome.cpp	/^int Chromosome::hIFFBigH (int start, int hIFFLength, bool lookUpTable) const {$/;"	f	class:Chromosome
+hIFFSmallH	chromosome.back.cpp	/^bool Chromosome::hIFFSmallH (int start, int hIFFLength, bool lookUpTable) const$/;"	f	class:Chromosome
+hIFFSmallH	chromosome.cpp	/^bool Chromosome::hIFFSmallH (int start, int hIFFLength, bool lookUpTable) const {$/;"	f	class:Chromosome
+hTrap	chromosome.back.cpp	/^double Chromosome::hTrap () const$/;"	f	class:Chromosome
+hTrap	chromosome.cpp	/^double Chromosome::hTrap () const {$/;"	f	class:Chromosome
+hTrap	tablelookup.h	/^    hTrap$/;"	e	enum:TableLookUpType
+hXOR	chromosome.back.cpp	/^double Chromosome::hXOR () const$/;"	f	class:Chromosome
+hXOR	chromosome.cpp	/^double Chromosome::hXOR () const {$/;"	f	class:Chromosome
+hXOR	tablelookup.h	/^    hXOR,$/;"	e	enum:TableLookUpType
+hXORBigH	chromosome.back.cpp	/^int Chromosome::hXORBigH (int start, int hXORLength, bool lookUpTable) const$/;"	f	class:Chromosome
+hXORBigH	chromosome.cpp	/^int Chromosome::hXORBigH (int start, int hXORLength, bool lookUpTable) const {$/;"	f	class:Chromosome
+hXORSmallH	chromosome.back.cpp	/^bool Chromosome::hXORSmallH (int start, int hXORLength, bool lookUpTable) const$/;"	f	class:Chromosome
+hXORSmallH	chromosome.cpp	/^bool Chromosome::hXORSmallH (int start, int hXORLength, bool lookUpTable) const {$/;"	f	class:Chromosome
+hasInitialGuess	dsmclusteringchromosome.h	/^        bool hasInitialGuess;$/;"	m	class:DSMClusteringChromosome
+icopy	vector.h	/^void icopy(int *from, int *to, int n)$/;"	f	class:Vector
+ikTrap	UFO.cpp	/^double UFO::ikTrap( const int& k, const int& totalOne, const int& type) const$/;"	f	class:UFO
+inCluster	dsmclusteringchromosome.cpp	/^bool DSMClusteringChromosome::inCluster (int clusterSize, int start[], int end[], int x, int y)$/;"	f	class:DSMClusteringChromosome
+inPost	dsmclusteringchromosome.cpp	/^bool DSMClusteringChromosome::inPost (TwoDArray < int >&fastIndex, int part, int current, int clusterSize)$/;"	f	class:DSMClusteringChromosome
+inPre	dsmclusteringchromosome.cpp	/^bool DSMClusteringChromosome::inPre (TwoDArray < int >&fastIndex, int part, int current, int clusterSize)$/;"	f	class:DSMClusteringChromosome
+inPrePre	dsmclusteringchromosome.cpp	/^bool DSMClusteringChromosome::inPrePre (TwoDArray < int >&fastIndex, int part, int current, int clusterSize)$/;"	f	class:DSMClusteringChromosome
+inSomeCluster	dsmclusteringchromosome.cpp	/^bool DSMClusteringChromosome::inSomeCluster (int clusterSize, TwoDArray < int >&fastIndex, int part_i, int part_j)$/;"	f	class:DSMClusteringChromosome
+incompleteBeta	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::incompleteBeta(double a, double b, double x)$/;"	f	class:DSMClusteringChromosome
+incompleteGamma	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::incompleteGamma(double a, double x)$/;"	f	class:DSMClusteringChromosome
+init	bbi.cpp	/^BBI::init (int n_ell)$/;"	f	class:BBI
+init	chromosome.back.cpp	/^Chromosome::init (int n_length)$/;"	f	class:Chromosome
+init	chromosome.cpp	/^Chromosome::init (int n_length) {$/;"	f	class:Chromosome
+init	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::init (int n_partN, double n_w1, double n_w2)$/;"	f	class:DSMClusteringChromosome
+init	dsmga.cpp	/^    void init() {$/;"	f	class:Linkage
+init	dsmga.h	/^    void init() {$/;"	f	class:Network
+init	fastcounting.cpp	/^void FastCounting::init (int n_length)$/;"	f	class:FastCounting
+init	triMatrix.h	/^        void init(int n)$/;"	f	class:TriMatrix
+init	twodarray.h	/^  void init (int n_lengthX, int n_lengthY)$/;"	f	class:TwoDArray
+init	vector.h	/^  void init(){$/;"	f	class:Vector
+init_by_array	mt19937ar.cpp	/^init_by_array (unsigned long init_key[], int key_length)$/;"	f
+init_genrand	mt19937ar.cpp	/^init_genrand (unsigned long s)$/;"	f
+initial	UFO.cpp	/^bool UFO::initial(const int& tempN, const int& tempK, const double& tempDesiredW)$/;"	f	class:UFO
+initialGuess	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::initialGuess ()$/;"	f	class:DSMClusteringChromosome
+initialGuess	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::initialGuess (int *guess)$/;"	f	class:DSMClusteringChromosome
+initializePopulation	dsmga.cpp	/^void DSMGA::initializePopulation() {$/;"	f	class:DSMGA
+interactions	spin-glass.h	/^    double **interactions;$/;"	m	struct:SpinGlassParams
+invert	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::invert (int p, int c)$/;"	f	class:DSMClusteringChromosome
+isEvaluated	chromosome.back.cpp	/^bool Chromosome::isEvaluated () const$/;"	f	class:Chromosome
+isEvaluated	chromosome.cpp	/^bool Chromosome::isEvaluated () const {$/;"	f	class:Chromosome
+isOptimalSpinGlass	spin-glass.cpp	/^int isOptimalSpinGlass(int *x, SpinGlassParams *spinGlassParams)$/;"	f
+isOptimalSpinGlassDHC	spin-glass.cpp	/^int isOptimalSpinGlassDHC(int *x, SpinGlassParams *spinGlassParams)$/;"	f
+isOverlap	dsmga.cpp	/^bool isOverlap(int *bb1, int *bb2) {$/;"	f
+isOverlapping	dsmga.cpp	/^bool DSMGA::isOverlapping(int *bb1, int *bb2, Chromosome &p1, Chromosome &p2) {$/;"	f	class:DSMGA
+isSteadyState	dsmga.cpp	/^bool DSMGA::isSteadyState() {$/;"	f	class:DSMGA
+is_in	dsmga.cpp	/^char Linkage::is_in(int i) {$/;"	f	class:Linkage
+is_in	vector.h	/^  char is_in(int i){$/;"	f	class:Vector
+jointEntropy	global.h	/^inline double jointEntropy(double p00, double p01, double p10, double p11)$/;"	f
+k	UFO.h	/^    int k;$/;"	m	class:UFO
+kMax	UFO.cpp	/^double UFO::kMax( const int& k, const int& totalOne, const int& type) const$/;"	f	class:UFO
+kTrap	UFO.cpp	/^double UFO::kTrap( const int& k, const int& totalOne, const int& type) const$/;"	f	class:UFO
+kTrap9	UFO.cpp	/^double UFO::kTrap9( const int& k, const int& totalOne, const int& type) const$/;"	f	class:UFO
+lambertw	global.cpp	/^double lambertw(double w)$/;"	f
+length	chromosome.back.h	/^        int length;$/;"	m	class:Chromosome
+length	chromosome.h	/^    int length;$/;"	m	class:Chromosome
+length	fastcounting.h	/^  int length;$/;"	m	class:FastCounting
+lengthLong	chromosome.back.h	/^        int lengthLong;$/;"	m	class:Chromosome
+lengthLong	chromosome.h	/^    int lengthLong;$/;"	m	class:Chromosome
+lengthLong	fastcounting.h	/^  int lengthLong;$/;"	m	class:FastCounting
+lengthX	twodarray.h	/^  int lengthX;$/;"	m	class:TwoDArray
+lengthY	twodarray.h	/^  int lengthY;$/;"	m	class:TwoDArray
+loadSample	Tsuji.cpp	/^Tsuji::loadSample(double w, int k, int ell, double std, int fCount)$/;"	f	class:Tsuji
+loadSimonsSpinGlassInstance	spin-glass.cpp	/^int loadSimonsSpinGlassInstance(FILE *input, SpinGlassParams *spinGlassParams)$/;"	f
+loadSpinGlassInstance	spin-glass.cpp	/^int loadSpinGlassInstance(FILE *input, SpinGlassParams *spinGlassParams)$/;"	f
+localSearch	dsmga.cpp	/^void DSMGA::localSearch() {$/;"	f	class:DSMGA
+lookUpBool	tablelookup.cpp	/^bool TableLookUp::lookUpBool(int index)$/;"	f	class:TableLookUp
+lookUpDouble	tablelookup.cpp	/^double TableLookUp::lookUpDouble(int index)$/;"	f	class:TableLookUp
+lookUpInt	tablelookup.cpp	/^int TableLookUp::lookUpInt(int index)$/;"	f	class:TableLookUp
+lsNFE	dsmga.h	/^	int lsNFE;$/;"	m	class:DSMGA
+m	UFO.h	/^    int m;$/;"	m	class:UFO
+main	TsujiTest.cpp	/^int main()$/;"	f
+main	UFOMain.cpp	/^int main (int argc, char *argv[])$/;"	f
+main	bisection.backup.cpp	/^int main (int argc, char *argv[]){$/;"	f
+main	bisection.cpp	/^main (int argc, char *argv[])$/;"	f
+main	bisection.system.cpp	/^ main (int argc, char *argv[])$/;"	f
+main	dataSampling.cpp	/^int main(int argc,char* argv[] )$/;"	f
+main	dsmgaMain.cpp	/^main (int argc, char *argv[])$/;"	f
+main	dsmgaMain_bk.cpp	/^main (int argc, char *argv[])$/;"	f
+main	optnfe.cpp	/^main (int argc, char *argv[])$/;"	f
+main	repeated-bisection.cpp	/^ int main (int argc, char *argv[] )  {$/;"	f
+main	testConflict.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	testGlobal.cpp	/^int main(int argc, char** argv) {$/;"	f
+makeInt	chromosome.back.cpp	/^Chromosome::makeInt (int *bb) const$/;"	f	class:Chromosome
+makeInt	chromosome.back.cpp	/^long int Chromosome::makeInt (const vector<int>& bb) const$/;"	f	class:Chromosome
+makeInt	chromosome.cpp	/^Chromosome::makeInt (int *bb) const {$/;"	f	class:Chromosome
+makeInt	chromosome.cpp	/^long int Chromosome::makeInt (const vector<int>& bb) const$/;"	f	class:Chromosome
+makeInt	fastcounting.cpp	/^int FastCounting::makeInt (int *bb) const$/;"	f	class:FastCounting
+map	dsmga.h	/^    int *map; \/\/ mappings from nodes to linkage sets$/;"	m	class:Network
+matrix	triMatrix.h	/^        T** matrix;$/;"	m	class:TriMatrix
+max	statistics.h	/^  double max;$/;"	m	class:Statistics
+maxFe	dsmga.h	/^    int maxFe;$/;"	m	class:DSMGA
+maxGen	dsmga.h	/^    int maxGen;$/;"	m	class:DSMGA
+maxMemory	global.cpp	/^int  maxMemory = 0;$/;"	v
+max_incomes	dsmga.h	/^    int max_incomes; \/\/ the maximum number of edges in a node$/;"	m	class:Network
+metric	global.h	/^inline double metric(double p00, double p01, double p10, double p11)$/;"	f
+min	statistics.h	/^  double min;$/;"	m	class:Statistics
+minCut	dsmga.cpp	/^void DSMGA::minCut () {$/;"	f	class:DSMGA
+minCut	dsmga.cpp	/^void DSMGA::minCut (Chromosome & p1, Chromosome & p2, Chromosome & c1, Chromosome & c2) {$/;"	f	class:DSMGA
+mincut	dsmga.cpp	/^int Network::mincut(int vs, int vt, Vector &v) {$/;"	f	class:Network
+mincutPlusXO	bisection.backup.cpp	37;"	d	file:
+mincutPlusXO	bisection.cpp	19;"	d	file:
+mincutXO	bisection.backup.cpp	38;"	d	file:
+mincutXO	bisection.cpp	20;"	d	file:
+minimalCut2	dsmga.cpp	/^void DSMGA::minimalCut2 (Chromosome &p1, Chromosome &p2, Chromosome &c1, Chromosome &c2) {$/;"	f	class:DSMGA
+mt	mt19937ar.cpp	/^static unsigned long mt[N];	\/* the array for the state vector  *\/$/;"	v	file:
+mti	mt19937ar.cpp	/^static int mti = N + 1;		\/* mti==N+1 means mt[N] is not initialized *\/$/;"	v	file:
+mutation	dsmga.cpp	/^void DSMGA::mutation() {$/;"	f	class:DSMGA
+mutualInformation	global.h	/^inline double mutualInformation(double p00, double p01, double p10, double p11)$/;"	f
+myBD	global.cpp	/^BitwiseDistance myBD;$/;"	v
+myDoubleCompare	global.cpp	/^int myDoubleCompare(const void *a, const void *b)$/;"	f
+myRand	Tsuji.h	/^    MyRand  myRand;$/;"	m	class:Tsuji
+myRand	global.cpp	/^MyRand myRand;$/;"	v
+mySpinGlassParams	global.cpp	/^SpinGlassParams mySpinGlassParams;$/;"	v
+mySplit	Tsuji.cpp	/^Tsuji::mySplit(const string &line,const string &delimiter)$/;"	f	class:Tsuji
+myTableLookUp	global.cpp	/^TableLookUp myTableLookUp;$/;"	v
+myell	Tsuji.h	/^    int     myell;$/;"	m	class:Tsuji
+myk	Tsuji.h	/^    int     myk;$/;"	m	class:Tsuji
+mym	Tsuji.h	/^    int     mym;$/;"	m	class:Tsuji
+mystd	Tsuji.h	/^    double  mystd;$/;"	m	class:Tsuji
+myw	Tsuji.h	/^    double  myw;$/;"	m	class:Tsuji
+n	UFO.h	/^    int n;$/;"	m	class:UFO
+n	dsmga.cpp	/^    int n; \/\/ number of elements$/;"	m	class:Linkage	file:
+n	dsmga.h	/^    int n; \/\/ the number of nodes$/;"	m	class:Network
+n	spin-glass.h	/^    int n;$/;"	m	struct:SpinGlassParams
+n	vector.h	/^  int  n;       \/\/ the number of elements$/;"	m	class:Vector
+nCurrent	dsmga.h	/^    int nCurrent; \/\/ current population size$/;"	m	class:DSMGA
+nInitial	dsmga.h	/^    int nInitial; \/\/ initial population size$/;"	m	class:DSMGA
+n_elem	dsmga.cpp	/^    int n_elem; \/\/ memory size of *elem$/;"	m	class:Linkage	file:
+n_elem	vector.h	/^  int  n_elem;  \/\/ the size of elem[]$/;"	m	class:Vector
+n_initial	dsmga.h	/^    int n_initial;$/;"	m	class:Network
+neighbors	spin-glass.h	/^    int   **neighbors;$/;"	m	struct:SpinGlassParams
+normal	myrand.cpp	/^MyRand::normal ()$/;"	f	class:MyRand
+normal	myrand.cpp	/^MyRand::normal (double mean, double stdd)$/;"	f	class:MyRand
+numFriends	spin-glass.h	/^    int *numFriends;$/;"	m	struct:SpinGlassParams
+numNeighbors	spin-glass.h	/^    int    *numNeighbors;$/;"	m	struct:SpinGlassParams
+number	statistics.h	/^  long int number;$/;"	m	class:Statistics
+ocFitness	globalFitOC.bck.cpp	/^FitOverConflict ocFitness;$/;"	v
+offspring	dsmga.h	/^    Chromosome *offspring;$/;"	m	class:DSMGA
+oneMax	chromosome.back.cpp	/^Chromosome::oneMax () const $/;"	f	class:Chromosome
+oneMax	chromosome.cpp	/^Chromosome::oneMax () const {$/;"	f	class:Chromosome
+onePointXO	dsmga.cpp	/^void DSMGA::onePointXO ()$/;"	f	class:DSMGA
+onePointXO	dsmga.cpp	/^void DSMGA::onePointXO (const Chromosome & p1, const Chromosome & p2, Chromosome & c1, Chromosome & c2)$/;"	f	class:DSMGA
+oneRun	dsmga.cpp	/^ void DSMGA::oneRun(bool output, int mode) {$/;"	f	class:DSMGA
+operator !=	bbi.cpp	/^BBI::operator!= (const BBI& bbi) const$/;"	f	class:BBI
+operator ()	fitOC.cpp	/^FitOverConflict::operator()(const int* const chromosome)$/;"	f	class:FitOverConflict
+operator ()	triMatrix.h	/^        T operator()(int i, int j)$/;"	f	class:TriMatrix
+operator ()	twodarray.h	/^  T & operator() (int i, int j) {$/;"	f	class:TwoDArray
+operator =	bbi.cpp	/^BBI & BBI::operator= (const BBI & bbi)$/;"	f	class:BBI
+operator =	chromosome.back.cpp	/^Chromosome& Chromosome::operator= (const Chromosome& c)$/;"	f	class:Chromosome
+operator =	chromosome.cpp	/^Chromosome& Chromosome::operator= (const Chromosome& c) {$/;"	f	class:Chromosome
+operator =	fastcounting.cpp	/^FastCounting& FastCounting::operator= (const FastCounting& c)$/;"	f	class:FastCounting
+operator ==	bbi.cpp	/^BBI::operator== (const BBI& bbi) const$/;"	f	class:BBI
+operator ==	chromosome.cpp	/^bool Chromosome::operator== (const Chromosome& c) const {$/;"	f	class:Chromosome
+operator []	twodarray.h	/^  T *operator[] (int i) {$/;"	f	class:TwoDArray
+optimalValue	spin-glass.h	/^    double optimalValue;$/;"	m	struct:SpinGlassParams
+outputErrMsg	global.cpp	/^void outputErrMsg (char *errMsg)$/;"	f
+outputFilename	global.cpp	/^char outputFilename[100];$/;"	v
+partInCluster	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::partInCluster (int p, int c)$/;"	f	class:DSMClusteringChromosome
+partInSomeCluster	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::partInSomeCluster (int p)$/;"	f	class:DSMClusteringChromosome
+partN	dsmclusteringchromosome.cpp	/^int DSMClusteringChromosome::partN;$/;"	m	class:DSMClusteringChromosome	file:
+partN	dsmclusteringchromosome.h	/^        static int partN;$/;"	m	class:DSMClusteringChromosome
+pc	dsmga.h	/^    double pc; \/\/ prob of XO$/;"	m	class:DSMGA
+pm	dsmga.h	/^    double pm; \/\/ prob of Mutation$/;"	m	class:DSMGA
+population	dsmga.h	/^    Chromosome *population;$/;"	m	class:DSMGA
+pow2	global.cpp	/^pow2 (int x)$/;"	f
+precision	statistics.h	/^  double precision;$/;"	m	class:Statistics
+prepareBB	bbi.h	/^  int prepareBB;$/;"	m	class:BBI
+previousFitnessMean	dsmga.h	/^    double previousFitnessMean;$/;"	m	class:DSMGA
+print	UFO.cpp	/^void UFO::print()$/;"	f	class:UFO
+print	vector.h	/^  void print(){$/;"	f	class:Vector
+printOut	bbi.cpp	/^BBI::printOut ()$/;"	f	class:BBI
+printOut	chromosome.back.cpp	/^Chromosome::printOut () const$/;"	f	class:Chromosome
+printOut	chromosome.cpp	/^Chromosome::printOut () const {$/;"	f	class:Chromosome
+printSpinGlassInstance	spin-glass.cpp	/^int printSpinGlassInstance(FILE *output, SpinGlassParams *spinGlassParams)$/;"	f
+printSpinGlassInstance2	spin-glass.cpp	/^int printSpinGlassInstance2(FILE *output, SpinGlassParams *spinGlassParams)$/;"	f
+printStatistics	UFO.cpp	/^void UFO::printStatistics()$/;"	f	class:UFO
+print_edges	dsmga.h	/^    void print_edges() {$/;"	f	class:Network
+printc	vector.h	/^  void printc(){$/;"	f	class:Vector
+quotientLong	global.h	/^inline int quotientLong(int a)$/;"	f
+r	UFO.h	/^    MyRand r;$/;"	m	class:UFO
+randomConflict	UFO.cpp	/^int UFO::randomConflict( const int& totalConflict)$/;"	f	class:UFO
+readMap	bitwisedistance.cpp	/^void BitwiseDistance::readMap()$/;"	f	class:BitwiseDistance
+readTable	tablelookup.cpp	/^void TableLookUp::readTable(TableLookUpType type)$/;"	f	class:TableLookUp
+real_score	fitOC.h	/^        double real_score;$/;"	m	class:FitOverConflict
+reconstruct_graph	dsmga.cpp	/^void DSMGA::reconstruct_graph(Chromosome &p1, Chromosome &p2, Network &oNet, Network &nNet) {$/;"	f	class:DSMGA
+reconstruct_graph_s	dsmga.cpp	/^void DSMGA::reconstruct_graph_s(Chromosome &p1, Chromosome &p2, Network &oNet, Network &nNet) {$/;"	f	class:DSMGA
+record	statistics.h	/^  void record (double value)$/;"	f	class:Statistics
+release	triMatrix.h	/^        void release()$/;"	f	class:TriMatrix
+release	twodarray.h	/^  void release ()$/;"	f	class:TwoDArray
+remainderLong	global.h	/^inline int remainderLong(int a)$/;"	f
+removePartFromCluster	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::removePartFromCluster (int p, int c)$/;"	f	class:DSMClusteringChromosome
+repeat	dsmga.h	/^    int repeat;$/;"	m	class:DSMGA
+replacePopulation	dsmga.cpp	/^void DSMGA::replacePopulation() {$/;"	f	class:DSMGA
+reset	Tsuji.cpp	/^Tsuji::reset()$/;"	f	class:Tsuji
+reset	UFO.cpp	/^void UFO::reset()$/;"	f	class:UFO
+reset	statistics.h	/^  void reset ()$/;"	f	class:Statistics
+room	UFO.h	/^    int** room;$/;"	m	class:UFO
+sameSubstrings	dsmga.cpp	/^bool DSMGA::sameSubstrings(Chromosome &p1, Chromosome &p2, int *bb) {$/;"	f	class:DSMGA
+sampling	Tsuji.cpp	/^Tsuji::sampling(double w, int k, int ell, double std, int fCount){$/;"	f	class:Tsuji
+second_max	statistics.h	/^  double second_max;$/;"	m	class:Statistics
+second_min	statistics.h	/^  double second_min;$/;"	m	class:Statistics
+seed	myrand.cpp	/^void MyRand::seed (unsigned long seed)$/;"	f	class:MyRand
+selection	dsmga.cpp	/^void DSMGA::selection() {$/;"	f	class:DSMGA
+selectionIndex	dsmga.h	/^    int *selectionIndex;$/;"	m	class:DSMGA
+selectionPressure	dsmga.h	/^    int selectionPressure;$/;"	m	class:DSMGA
+setParams	Tsuji.cpp	/^Tsuji::setParams(double iw, int ik, int iell, double istd)$/;"	f	class:Tsuji
+setVal	chromosome.back.h	/^        void setVal (int index, int val)$/;"	f	class:Chromosome
+setVal	chromosome.h	/^    void setVal (int index, int val) {$/;"	f	class:Chromosome
+setVal	fastcounting.cpp	/^void FastCounting::setVal (int index, int val)$/;"	f	class:FastCounting
+setValue	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::setValue (int p, int c, int val)$/;"	f	class:DSMClusteringChromosome
+shortPrintOut	chromosome.back.cpp	/^void Chromosome::shortPrintOut () const$/;"	f	class:Chromosome
+shortPrintOut	chromosome.cpp	/^void Chromosome::shortPrintOut () const {$/;"	f	class:Chromosome
+shouldTerminate	dsmga.cpp	/^bool DSMGA::shouldTerminate() {$/;"	f	class:DSMGA
+showStatistics	dsmga.cpp	/^void DSMGA::showStatistics() {$/;"	f	class:DSMGA
+simpleMinCut	dsmga.cpp	/^void DSMGA::simpleMinCut() $/;"	f	class:DSMGA
+size	fitOC.h	/^        int size, ell, totalBB;$/;"	m	class:FitOverConflict
+size	triMatrix.h	/^        int size;$/;"	m	class:TriMatrix
+size	twodarray.h	/^  int size() {$/;"	f	class:TwoDArray
+sortde	fitOC.h	/^	int sortde[505];$/;"	m	class:FitOverConflict
+speedyHillClimbingV3	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::speedyHillClimbingV3 ()$/;"	f	class:DSMClusteringChromosome
+spinGlass	chromosome.cpp	/^Chromosome::spinGlass () const {$/;"	f	class:Chromosome
+spinGlassValue	spin-glass.cpp	/^double spinGlassValue(int *x, SpinGlassParams *spinGlassParams)$/;"	f
+spinGlassValueDHC	spin-glass.cpp	/^double spinGlassValueDHC(int *x, SpinGlassParams *spinGlassParams, long &numFlips)$/;"	f
+square	global.h	/^inline double square(double a)$/;"	f
+stFitness	dsmga.h	/^    Statistics stFitness;$/;"	m	class:DSMGA
+status	statistics.h	/^  bool status;$/;"	m	class:Statistics
+steepestDescent	chromosome.cpp	/^int Chromosome::steepestDescent() {$/;"	f	class:Chromosome
+strengthBasedBayesianXO_TL	dsmga.cpp	/^void DSMGA::strengthBasedBayesianXO_TL() {$/;"	f	class:DSMGA
+sum	statistics.h	/^  double sum;$/;"	m	class:Statistics
+swap	spin-glass.cpp	/^inline void swap(int &x, int &y)$/;"	f
+swapInt	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::swapInt (int *i, int *j)$/;"	f	class:DSMClusteringChromosome
+swapInt	global.h	/^inline void swapInt(int *i, int *j)$/;"	f
+tableBool	tablelookup.h	/^    bool *tableBool;$/;"	m	class:TableLookUp
+tableDouble	tablelookup.h	/^    double *tableDouble;$/;"	m	class:TableLookUp
+tableInt	tablelookup.h	/^    int *tableInt;$/;"	m	class:TableLookUp
+tmp	fitOC.h	/^        int tmp[505][9];$/;"	m	class:FitOverConflict
+tmpdata	fitOC.h	/^	int tmpdata[505][2];$/;"	m	class:FitOverConflict
+tokens	Tsuji.h	/^    vector<int> tokens;$/;"	m	class:Tsuji
+totalBB	fitOC.h	/^        int size, ell, totalBB;$/;"	m	class:FitOverConflict
+tournamentSelection	dsmga.cpp	/^void DSMGA::tournamentSelection() {$/;"	f	class:DSMGA
+tr_value	fitOC.h	/^	double tr_value;$/;"	m	class:FitOverConflict
+traceBackAndUpdate	UFO.cpp	/^void UFO::traceBackAndUpdate(int* parent)$/;"	f	class:UFO
+tran	fitOC.h	/^        int tran[5005];$/;"	m	class:FitOverConflict
+trap0	chromosome.back.cpp	/^Chromosome::trap0 (int unitary, double fHigh, double fLow) const$/;"	f	class:Chromosome
+trap0	chromosome.cpp	/^double Chromosome::trap0 (int unitary, double fHigh, double fLow, int trapK) const {$/;"	f	class:Chromosome
+trap1	chromosome.back.cpp	/^double Chromosome::trap1 (int unitary, double fHigh, double fLow) const$/;"	f	class:Chromosome
+trap1	chromosome.cpp	/^double Chromosome::trap1 (int unitary, double fHigh, double fLow, int trapK) const {$/;"	f	class:Chromosome
+trap5	chromosome.back.cpp	/^Chromosome::trap5(int unitary) const$/;"	f	class:Chromosome
+tsuji	global.cpp	/^Tsuji tsuji;$/;"	v
+turnOff	statistics.h	/^  void turnOff ()$/;"	f	class:Statistics
+turnOn	statistics.h	/^  void turnOn ()$/;"	f	class:Statistics
+ufo	global.cpp	/^UFO ufo;$/;"	v
+ufo	globalUFO.bck.cpp	/^UFO ufo;$/;"	v
+unUsedGenes	UFO.h	/^    int unUsedGenes;$/;"	m	class:UFO
+uniform	myrand.cpp	/^MyRand::uniform ()$/;"	f	class:MyRand
+uniform	myrand.cpp	/^MyRand::uniform (double a, double b)$/;"	f	class:MyRand
+uniformArray	myrand.cpp	/^MyRand::uniformArray (int *array, int num, int a, int b)$/;"	f	class:MyRand
+uniformInt	myrand.cpp	/^MyRand::uniformInt (int a, int b)$/;"	f	class:MyRand
+uniformXO	dsmga.cpp	/^void DSMGA::uniformXO ()$/;"	f	class:DSMGA
+uniformXO	dsmga.cpp	/^void DSMGA::uniformXO (const Chromosome & p1, const Chromosome & p2, Chromosome & c1, Chromosome & c2, double prob)$/;"	f	class:DSMGA
+used	fitOC.h	/^        bool used[250005];$/;"	m	class:FitOverConflict
+variance	statistics.h	/^  double variance;$/;"	m	class:Statistics
+ver	Tsuji.h	/^    bool    ver;$/;"	m	class:Tsuji
+verbose	Tsuji.cpp	/^Tsuji::verbose()$/;"	f	class:Tsuji
+w	UFO.h	/^    int w;$/;"	m	class:UFO
+w1	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::w1;$/;"	m	class:DSMClusteringChromosome	file:
+w1	dsmclusteringchromosome.h	/^        static double w1;$/;"	m	class:DSMClusteringChromosome
+w2	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::w2;$/;"	m	class:DSMClusteringChromosome	file:
+w2	dsmclusteringchromosome.h	/^        static double w2;$/;"	m	class:DSMClusteringChromosome
+w3	dsmclusteringchromosome.cpp	/^double DSMClusteringChromosome::w3;$/;"	m	class:DSMClusteringChromosome	file:
+w3	dsmclusteringchromosome.h	/^        static double w3;$/;"	m	class:DSMClusteringChromosome
+where	vector.h	/^  int where(int i){$/;"	f	class:Vector
+write	triMatrix.h	/^        void write(int i, int j, T val)$/;"	f	class:TriMatrix
+xoMethod	repeated-bisection.cpp	/^ char * xoMethod = "mune";$/;"	v
+zeros	UFO.h	/^    int zeros;$/;"	m	class:UFO
+~BBI	bbi.cpp	/^BBI::~BBI ()$/;"	f	class:BBI
+~BitwiseDistance	bitwisedistance.cpp	/^BitwiseDistance::~BitwiseDistance()$/;"	f	class:BitwiseDistance
+~Chromosome	chromosome.back.cpp	/^Chromosome::~Chromosome ()$/;"	f	class:Chromosome
+~Chromosome	chromosome.cpp	/^Chromosome::~Chromosome () {$/;"	f	class:Chromosome
+~DSMClusteringChromosome	dsmclusteringchromosome.cpp	/^DSMClusteringChromosome::~DSMClusteringChromosome ()$/;"	f	class:DSMClusteringChromosome
+~DSMGA	dsmga.cpp	/^DSMGA::~DSMGA() {$/;"	f	class:DSMGA
+~FastCounting	fastcounting.cpp	/^FastCounting::~FastCounting ()$/;"	f	class:FastCounting
+~Linkage	dsmga.cpp	/^    ~Linkage() {$/;"	f	class:Linkage
+~MyRand	myrand.cpp	/^MyRand::~MyRand ()$/;"	f	class:MyRand
+~Network	dsmga.h	/^    ~Network() {$/;"	f	class:Network
+~TableLookUp	tablelookup.cpp	/^TableLookUp::~TableLookUp()$/;"	f	class:TableLookUp
+~TriMatrix	triMatrix.h	/^        ~TriMatrix ()$/;"	f	class:TriMatrix
+~Tsuji	Tsuji.cpp	/^Tsuji::~Tsuji()$/;"	f	class:Tsuji
+~TwoDArray	twodarray.h	/^  ~TwoDArray ()$/;"	f	class:TwoDArray
+~UFO	UFO.cpp	/^UFO::~UFO()$/;"	f	class:UFO
+~Vector	vector.h	/^  ~Vector(){$/;"	f	class:Vector

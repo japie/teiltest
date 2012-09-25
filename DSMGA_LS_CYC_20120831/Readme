@@ -1,0 +1,35 @@
+
+======================================
+bisection is for finding minimal population size.
+Usage: bisection ell numofConvergence lowerBound upperBound
+
+ell: Chromosome length
+numofConvergence: number of Convergence. 10 means 10 succuessful convergence out of 10 runs.
+lowerBound & upperBound: put -1 if you don't want to bound n.
+
+Things might need be to be modified: 
+1) MAX_GEN in bisection.cpp: max number of generations before the GA is considered fail.
+2) getMaxFitness() in chromosome.cpp: modify here to return the maximum fitness of a chromosome. This is used to check if the GA succeeds.
+
+--------------------------------------
+
+DSMGA
+Usage: DSMGA ell n selectionPressure pc pm maxGen maxFe repeat display rand_seed
+
+ell: Chromosome length
+n: Population size
+selectionPressure: Selection pressure (tournament size)
+pc: Crossover probability
+pm: Mutation probability
+maxGen: Maximum number of generations (-1 means no limit)
+maxFe: Maximan number of function evaluations (-1 means no limit)
+repeat: An integer >= 1, number of independent runs.
+display: 0 or 1 (1 means showing best chromosome and statistical information)
+rand_seed: Random seed (-1 means using time as random seed)
+
+
+Things might need be to be modified:
+1) evaluate() in chromosome.cpp: the Fitness function.
+2) getMaxFitness() in chromosome.cpp: modify here to return the maximum fitness of a chromosome. This is used to check if the GA succ
+eeds.
+3) replacePopulation() in dsmga.cpp: Using RTR or not.
